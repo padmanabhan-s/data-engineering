@@ -1,0 +1,1 @@
+{"fields":[{"metadata":{},"name":"name","nullable":false,"type":"string"},{"metadata":{},"name":"languages","nullable":false,"type":{"containsNull":true,"elementType":"string","type":"array"}},{"metadata":{},"name":"identification","nullable":true,"type":{"keyType":"string","type":"map","valueContainsNull":false,"valueType":"string"}}],"type":"struct"}
