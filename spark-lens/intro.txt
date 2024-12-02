@@ -1,0 +1,5 @@
+pyspark \
+  --packages org.apache.spark:spark-lens_2.12.8:3.5.3 \
+  --conf spark.plugins=org.apache.spark.lens.SparkLensPlugin \
+  --conf spark.lens.enabled=true \
+  --conf spark.lens.report.directory=/home/padmanabhan/Desktop/development/tools/spark-3.5.3-bin-hadoop3/spark-lens/
